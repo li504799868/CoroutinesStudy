@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChannelActivity">
+
+    <Button
+        android:id="@+id/launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="launch" />
+
+    <Button
+        android:id="@+id/ticker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ticker" />
+
+    <Button
+        android:id="@+id/buffer_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buffer_channel" />
+
+    <Button
+        android:id="@+id/no_actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="no_actor" />
+
+    <Button
+        android:id="@+id/actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="actor" />
+
+</LinearLayout>

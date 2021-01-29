@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrashActivity">
+
+    <Button
+        android:id="@+id/crash1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crash_Thread" />
+
+    <Button
+        android:id="@+id/crash2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crash_Handler" />
+
+    <Button
+        android:id="@+id/crash3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crash_try_catch" />
+
+    <Button
+        android:id="@+id/crash4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crash_supervisorScope" />
+
+</LinearLayout>
